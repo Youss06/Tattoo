@@ -6,6 +6,15 @@ header {
   border: 2px solid green;
 }
 
+body {
+  background-color: #201d1b;
+}
+
+section {
+  border: 2px solid black;
+  margin-bottom: 9px;
+}
+
 ul, li {
   display: flex;
   justify-content: space-between;
@@ -15,7 +24,8 @@ ul {
   width: 70%;
 }
 
-h1, li {
+h1, li, h2 {
+  color:  #f3c20d;
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -23,6 +33,11 @@ h1 {
   text-align: center;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
 
 /* Petits écrans (tablettes, 768px et plus) */
 @media (min-width: 768px) {...}
