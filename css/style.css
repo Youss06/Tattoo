@@ -17,20 +17,26 @@ li {
   font-family: 'Kaushan Script', cursive;
   justify-content: space-between;
   align-items: flex-end;
+  color:  #dff906;
 }
 
 h1 {
-  text-align: center;
+ text-align: center;
  margin-top: 30px;
  font-family: 'Kaushan Script', cursive;
  font-size: 50px;
+ color:  #e81a33;
+
 }
-
-
 
 
 /* Petits écrans (tablettes, 768px et plus) */
 @media (min-width: 768px) {...}
+/*************************************************
+************************************************
+************       TABLETTE       **************
+************************************************
+*************************************************/
 
 
 
