@@ -1,0 +1,36 @@
+/** Très petits écrans (smartphones, moins de 768px) */
+/* Pas besoin de media-query, c'est le style par défaut */
+
+header {
+  background: fixed;
+  border: 2px solid green;
+}
+
+ul, li {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  width: 70%;
+}
+
+h1, li {
+  font-family: 'Kaushan Script', cursive;
+}
+
+h1 {
+  text-align: center;
+}
+
+
+/* Petits écrans (tablettes, 768px et plus) */
+@media (min-width: 768px) {...}
+
+
+
+
+
+
+/* Ecrans moyens (desktops, 992px et plus) */
+@media (min-width: 992px) {...}
