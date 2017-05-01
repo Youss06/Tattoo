@@ -76,8 +76,14 @@ footer {
 
 
 /* Ecrans moyens (desktops, 992px et plus) */
-@media (min-width: 992px) {...}
+@media (min-width: 992px) {
 
 .computer {
   display: block;
+}
+
+/*img {
+  width: 100%;
+}*/
+
 }
