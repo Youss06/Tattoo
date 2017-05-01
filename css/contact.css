@@ -25,7 +25,7 @@ ul {
   width: 70%;
 }
 
-h1, li, h2, figcaption, label {
+h1, li, h2, figcaption, label, p  {
   color:  #f3c20d;
   font-family: 'Kaushan Script', cursive;
 }
@@ -34,8 +34,27 @@ h1 {
   text-align: center;
 }
 
+footer {
+  display: none;
+}
+
+.texte {
+  height: 40px;
+}
+
 /* Petits écrans (tablettes, 768px et plus) */
 @media (min-width: 768px) {
+
+p {
+    color:  #08f708;
+  }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+  }
+
 
 }
 
