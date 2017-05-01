@@ -1,0 +1,31 @@
+/** Très petits écrans (smartphones, moins de 768px) */
+/* Pas besoin de media-query, c'est le style par défaut */
+
+
+
+header {
+  border: 2px solid black;
+}
+
+body {
+  background-color: #201d1b;
+}
+
+section {
+  border: 2px solid black;
+  margin-bottom: 9px;
+}
+
+ul, li {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  width: 70%;
+}
+
+h1, li, h2, figcaption {
+  color:  #f3c20d;
+  font-family: 'Kaushan Script', cursive;
+}
