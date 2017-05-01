@@ -3,7 +3,7 @@
 
 
 
-header {
+header, .form {
   border: 2px solid black;
 }
 
@@ -25,7 +25,7 @@ ul {
   width: 70%;
 }
 
-h1, li, h2, figcaption {
+h1, li, h2, figcaption, label {
   color:  #f3c20d;
   font-family: 'Kaushan Script', cursive;
 }
