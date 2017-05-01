@@ -1,8 +1,8 @@
 /** Très petits écrans (smartphones, moins de 768px) */
 /* Pas besoin de media-query, c'est le style par défaut */
 
+
 header {
-  background: fixed;
   border: 2px solid black;
 }
 
@@ -39,7 +39,7 @@ img {
   margin-right: auto
 }
 
-.imgtab {
+.imgtab, footer, .computer {
   display: none;
 }
 
@@ -50,6 +50,9 @@ img {
   display: block;
 }
 
+.computer {
+  display: none;
+}
 .logo {
   width: auto;
 }
@@ -74,3 +77,7 @@ footer {
 
 /* Ecrans moyens (desktops, 992px et plus) */
 @media (min-width: 992px) {...}
+
+.computer {
+  display: block;
+}
