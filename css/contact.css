@@ -29,3 +29,21 @@ h1, li, h2, figcaption {
   color:  #f3c20d;
   font-family: 'Kaushan Script', cursive;
 }
+
+h1 {
+  text-align: center;
+}
+
+/* Petits écrans (tablettes, 768px et plus) */
+@media (min-width: 768px) {
+
+}
+
+
+
+
+
+/* Ecrans moyens (desktops, 992px et plus) */
+@media (min-width: 992px) {
+
+}
