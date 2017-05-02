@@ -6,6 +6,17 @@
 ************************************************
 *************************************************/
 
+.header {
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  background-color: black;
+  width: 100%;
+  position: fixed;
+}
+
 
 a {
   color:  #202afa;
@@ -13,6 +24,8 @@ a {
 }
 
 header {
+  width: 100%;
+  height: 225px;
   border: 2px solid black;
 }
 
