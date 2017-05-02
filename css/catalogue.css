@@ -48,7 +48,7 @@ img {
   margin-right: auto
 }
 
-.imgtab, footer, .computer {
+.imgtab, footer, .computer, container {
   display: none;
 }
 
@@ -101,10 +101,13 @@ footer {
 *************************************************/
 @media (min-width: 992px) {
 
+container {
+  display: block;
+  display: flex;
+}
 
 .catalogue, .computer {
   width: 30%;
-  display: flex;
   display: inline-table;
 }
 
